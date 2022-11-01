@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="voc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>voc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="egov.war">
+      <element id="artifact" artifact-name="voc:war exploded" />
+    </root>
+  </artifact>
+</component>
